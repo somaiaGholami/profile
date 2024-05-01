@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(251, 223, 168);
+    font-family: georgia;
+    font-variant: small-caps;
+    font-style: italic;
+    text-shadow:2px 2px 4px rgb(41, 37, 37);
+    
+    
+
+}
+
+.profile-card{
+    width:80vw;
+    margin: auto;
+    color:  rgb(251, 223, 168);
+    background-color: black;
+    box-shadow:2px 2px 2px rgb(177, 174, 174);
+    
+    border: 1px solid white;
+    border-radius:10px;
+
+}
+h2{
+    font-size:6vw;
+    margin-left:2vw;
+    text-shadow:2px 2px 2px rgb(249, 247, 247);
+    text-decoration: underline wavy rgba(224, 152, 6, 0.934);
+    color: bisque; 
+}
+h1{
+    font-size:4vw;
+    margin-left:2vw;
+    text-decoration: underline wavy rgba(224, 152, 6, 0.934);
+    color: bisque;
+    
+}
+
+h3{
+    font-size:3vw;
+    margin-left:5vw;
+}
+p{
+    font-size:3vw;
+    margin-left:5vw;
+    font-variant: normal;
+}
+.profile-card img{
+    margin-top:5vw;
+    margin-left:20vw;
+    margin-right: auto;
+    width:50%;
+    border:2px solid  rgb(251, 223, 168);
+    border-radius:50%;
+
+}
+
+p.hide{
+    visibility: hidden;
+}
+p.hide:hover{
+    visibility: visible;
+}
+
+.profile-card:hover {
+   background-color: rgb(250, 218, 176);
+   color: black;
+}
+
+
+.profile-card img:hover{
+    opacity: 0.5;
+}
+
+hr{
+    width:75vw;
+    height:0.3vw;
+    border-radius:1vw;
+    background-color: bisque;
+
+
+}
+
+
+
+
+     /* Stylingthe last h2 tag by giving margin bottom */
+
+     .progress-bar-container:not(:last-child) {
+
+        margin-bottom: 50px;
+
+    }
+
+
+    /* Styling the h2 tag by giving color, 
+
+    letter spacing, font-size etc.*/
+
+    .progress-bar-container h2 {
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: #eee;
+
+        letter-spacing: 1px;
+
+        font-size: 20px;
+
+    }
+
+
+    /* Styling the border and box
+
+    effect of the progress bar*/
+
+    .progress-bar {
+
+        width: 75vw;
+
+        height: 2vw;
+
+        margin:2vw;
+
+        border: 1px solid #565656;
+
+        border-radius: 5px;
+
+        box-shadow: 0 0 10px rgb(245, 159, 0);
+
+    }
+
+
+    /* Stylingthe background color of each 
+
+    animation and border radius */
+
+    .percentage {
+
+        display: block;
+
+        height: 100%;
+
+        background-color: orange;
+
+        border-radius: 5px;
+
+        animation: progress 1500ms ease-in 1;
+
+    }
+
+
+    /* Assigning width of each languages*/
+
+    .p {
+
+        width: 85%;
+
+    }
+
+
+    .I {
+
+        width: 70%;
+
+    }
+
+
+    .f {
+
+        width: 55%;
+
+    }
+
+
+    .c {
+
+        width: 75%;
+
+    }
+
+
+    .css {
+
+        width: 65%;
+
+    }
+
+
+    .fi {
+
+        width: 55%;
+
+    }
+
+
+    /* Animating the progress bar by 
+
+    initially starting from 0*/
+
+    @keyframes progress {
+
+        from {
+
+            width: 0;
+
+        }
+
+    }
+
